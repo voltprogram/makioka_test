@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>道の駅まきおか</title>
+    <!-- site-description -->
+    <meta name="description" content="">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="" type="">
+    <!-- OGP -->
+    <meta property="og:title" content="道の駅まきおか">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://voltprogram.github.io/kaihama/images/ogp.jpg">
+    <meta property="og:url" content="https://voltprogram.github.io/kaihama/">
+    <meta property="og:type" content="website">
+    <!-- X(Twitter) OGP -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@volt_program">
+    <meta name="twitter:title" content="道の駅まきおか">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="https://voltprogram.github.io/kaihama/images/kaihama-ogp.jpg">
+    <!-- ress.css -->
+    <link rel="stylesheet" href="css/ress.css">
+    <!-- google-Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&display=swap" rel="stylesheet">
+    <!-- external-css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <!-- JavaScript -->
+    <script src="js/script.js" defer></script>
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div class="container">
+<!-- header -->
+<header class="header">
+    <div class="main-header">
+        <div class="header-logo-content serif">
+            <a class="header-logo-link" href="/">
+                <h1 class="header-subtitle">道の駅花かげの郷</h1>
+                <h1 class="header-title">まきおか</h1>
+                <p class="dots-content">
+                    <span class="dot-item"></span>
+                    <span class="dot-item"></span>
+                    <span class="dot-item"></span>
+                    <span class="dot-item"></span>
+                </p>
+            </a>
+        </div>
+        <nav class="side-menu" id="side-menu">
+            <ul class="nav-menu serif">
+                <li><a href="#">
+                    <img src="images/menu-icon-news.png" alt="" loading="lazy">
+                    <p>お知らせ</p>    
+                </a></li>
+                <li><a href="#">
+                    <img src="images/menu-icon-intro.png" alt="" loading="lazy">
+                    <p>施設紹介</p>    
+                </a></li>
+                <li><a href="#">
+                    <img src="images/menu-icon-access.png" alt="" loading="lazy">
+                    <p>アクセス</p>    
+                </a></li>
+                <li><a href="#">
+                    <img src="images/menu-icon-sightseeing.png" alt="" loading="lazy">
+                    <p>周辺観光</p>    
+                </a></li>
+            </ul>
+        </nav>
+        <div class="business-hours-box">
+            <p class="business-hours-title">本日営業中</p>
+            <p class="business-hours-txt">営業時間9:00～17:30</p>
+            <p class="business-hours-txt">（定休日：水曜日）</p>
+        </div>
+    </div>
+    <div class="header-mobile-menu sp_only">
+        <button class="hamburger-menu">
+            <span class="hamburger-line-top"></span>
+            <span class="hamburger-line-bottom"></span>
+        </button>
+        <div class="mobile-header-logo-content serif">
+            <a class="mobile-header-logo-link" href="/">
+                <h1 class="mobile-header-subtitle">道の駅花かげの郷</h1>
+                <h1 class="mobile-header-title">まきおか</h1>
+            </a>
+        </div>
+        <button class="tel-btn">
+            <a href="tel:0553-35-4780"><img src="images/phone-icon.svg" alt="受話器のアイコン" loading="lazy"></a>
+        </button>
+    </div>
+</header>
+<!-- /header -->
+
+<!-- オーバーレイ -->
+<div class="overlay" onclick="toggleMenu()"></div>
+
+<div class="main-content">
+<main>
+<!-- fv -->
+<section id="fv">
+    <div class="splide" id="fv-splide" aria-label="Splideの基本的なHTML">
+        <div class="splide__track">
+        <ul class="splide__list">
+            <li class="splide__slide">
+                <picture>
+                    <source srcset="images/fv-img1.jpg" alt="" media="(min-width: 769px)">
+                    <img src="images/fv-img1.jpg" alt="" loading="lazy">
+                </picture>
+            </li>
+            <li class="splide__slide">
+                <picture>
+                    <source srcset="images/fv-dummy2.jpg" media="(min-width: 769px)">
+                    <img src="images/fv-dummy2.jpg" alt="" loading="lazy">
+            </li>
+            <li class="splide__slide">
+                <picture>
+                    <source srcset="images/fv-dummy3.jpg" alt="" media="(min-width: 769px)">
+                    <img src="images/fv-dummy3.jpg" alt="" loading="lazy">
+                </picture>
+            </li>
+        </ul>
+        </div>
+    </div>
+    <div class="wrapper">
+        <button class="fv-btn">
+            <img src="images/phone-icon.svg" alt="受話器のアイコン" loading="lazy">
+            <a href="">お問い合わせは0553-35-4780</a>
+        </button>
+        <div class="fv-txt-box serif">
+            <p class="fv-txt">久しぶりの富士山は「まずはここから」</p>
+            <p class="fv-txt">ホッと一息できる道の駅</p>
+        </div>
+    </div>
+</section>
+<!-- /fv -->
+<!-- section1 -->
+<section id="section1">
+    <div class="section1-wrapper">
+        <div class="section1-transition-content">
+            <div class="transition-item">
+                <div class="transition-img">
+                    <img src="images/top-section1-img1.png" alt="桃の陳列" loading="lazy">
+                </div>
+                <button class="transition-btn">
+                    <a href="">売店詳細へ</a>
+                </button>
+            </div>
+            <div class="transition-item">
+                <div class="transition-img">
+                    <img src="images/top-section1-img2.png" alt="食堂の様子" loading="lazy">
+                </div>
+                <button class="transition-btn">
+                    <a href="">食堂詳細へ</a>
+                </button>
+            </div>
+            <div class="transition-item">
+                <div class="transition-img">
+                    <img src="images/top-section1-img3.png" alt="観光名所外観" loading="lazy">
+                </div>
+                <button class="transition-btn">
+                    <a href="">周辺観光詳細へ</a>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /section1 -->
+<!-- section2 -->
+<section id="section2">
+    <div class="section2-wrapper">
+        <div class="section2-txt-content">
+            <h3 class="section-title serif">山と風と、人のぬくもり。<br>花かげの郷まきおかへようこそ。</h3>
+            <div class="dots-content">
+                <span class="dot-item"></span>
+                <span class="dot-item"></span>
+                <span class="dot-item"></span>
+                <span class="dot-item"></span>
+            </div>
+            <p class="section2-txt">
+                山梨県山梨市牧丘町に位置する「道の駅 花かげの郷まきおか」は、自然豊かな風景とともに、地域の魅力を五感で楽しめる施設です。地元産の新鮮な野菜や果物、特産品を揃えた直売所をはじめ、観光情報コーナーや休憩スペースも充実。季節ごとの風景とともに、訪れる人々に安らぎと発見を提供します。旅の途中に、地元のぬくもりにふれるひとときをお過ごしください。
+            </p>
+        </div>
+    </div>
+</section>
+<!-- /section2 -->
+<!-- section3 -->
+<section id="section3">
+    <div class="wrapper">
+        <div class="section3-content">
+            <h3 class="section-title serif">山梨・牧丘だから味わえる、<br>採れたての美味しさ</h3>
+            <div class="dots-content">
+                <span class="dot-item"></span>
+                <span class="dot-item"></span>
+                <span class="dot-item"></span>
+                <span class="dot-item"></span>
+            </div>
+            <p class="section3-txt">
+                山々に囲まれた清らかな水と昼夜の寒暖差が育む、牧丘ならではの果物と野菜。特に巨峰や桃、季節の山菜は、地元の畑から朝採れたてのものが並びます。その場で味わう料理も、素材の持ち味を活かしたやさしい味付け。「新鮮ってこういうことなんだ」と思わず感じていただけるはずです。
+            </p>
+        </div>
+    </div>
+</section>
+<!-- /section3 -->
+<!-- section3 -->
+<section id="section4">
+    <div class="section4-wrapper">
+        <div class="section4-left-content">
+            <div class="section4-txt-content">
+                <h3 class="section-title serif">牧丘の恵みが詰まった新鮮な果物や野菜をはじめ、お土産にぴったりの特産品がずらり。</h3>
+                <div class="dots-content">
+                    <span class="dot-item"></span>
+                    <span class="dot-item"></span>
+                    <span class="dot-item"></span>
+                    <span class="dot-item"></span>
+                </div>
+                <p class="section4-txt">
+                    地元の素材を活かした手づくりの食事もご好評いただいています。旅のひとときに、美味しい出会いをどうぞ。
+                </p>
+            </div>
+            <div class="section4-img-content">
+                <div class="section4-img">
+                    <img src="images/top-section4-img.png" alt="並ぶハチミツ" loading="lazy">
+                </div>
+            </div>
+            <button class="section4-btn">
+                <a href="" class="">施設紹介へ</a>
+            </button>
+        </div>
+        <div class="section4-right-content">
+            <div class="section4-main-img">
+                <img src="images/top-section3-big-img.png" alt="食堂の様子" loading="lazy">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /section4 -->
+<!-- news -->
+<section id="news">
+    <div class="wrapper">
+        <div class="news-content">
+            <h3 class="section-title serif">お知らせ</h3>
+            <div class="news-item">
+                <time datetime="" class="news-date">2025年〇月〇日</time>
+                <div class="news-tab">お知らせ</div>
+                <p class="news-txt">テキストが入ります。テキストが入ります。</p>
+            </div>
+            <div class="news-item">
+                <time datetime="" class="news-date">2025年〇月〇日</time>
+                <div class="news-tab">お知らせ</div>
+                <p class="news-txt">テキストが入ります。テキストが入ります。</p>
+            </div>
+            <div class="news-item">
+                <time datetime="" class="news-date">2025年〇月〇日</time>
+                <div class="news-tab">お知らせ</div>
+                <p class="news-txt">テキストが入ります。テキストが入ります。</p>
+            </div>
+            <button class="news-btn">
+                <a href="">お知らせ一覧</a> 
+            </button>
+        </div>
+    </div>
+</section>
+<!-- /news -->
+<!-- calendar -->
+<section id="calendar">
+    <div class="wrapper">
+        <div class="calendar-content">
+            <p class="calendar-title">休業日のご案内</p>
+            <iframe></iframe>
+        </div>
+    </div>
+</section>
+<!-- /calendar -->
+<!-- access -->
+<section id="access">
+    <div class="wrapper">
+        <h3 class="section-title serif">アクセス ・ 営業時間</h3>
+        <div class="dots-content">
+            <span class="dot-item"></span>
+            <span class="dot-item"></span>
+            <span class="dot-item"></span>
+            <span class="dot-item"></span>
+        </div>
+        <div class="access-txt-content">
+            <div class="access-left-txt">
+                <p class="access-txt">国道140号線雁坂トンネルから15ｋｍ</p>
+                <p class="access-txt">中央自動車道勝沼ICから車で30分</p>
+                <p class="access-txt">JR山梨市駅から車15分すぐ</p>
+                <p class="access-txt">JR中央本線山梨市駅より山梨市営バス西沢渓谷入口行きで30分道の駅停すぐ</p>
+            </div>
+            <div class="access-right-txt">
+                <p class="access-txt">営業時間　9時～17時半(季節により変更あり)</p>
+                <p class="access-txt">定休日　　毎週水曜日</p>
+            </div>
+        </div>
+        <div class="access-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3237.850652278245!2d138.7184276!3d35.75447539999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601bffe1c2f42b35%3A0x3c4df1f2a4331244!2z6YGT44Gu6aeFIOiKseOBi-OBkuOBrumDtyDjgb7jgY3jgYrjgYs!5e0!3m2!1sja!2sjp!4v1752817099824!5m2!1sja!2sjp" width="1380" height="366" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</section>
+<!-- /access -->
+</main>
+<!-- footer -->
+<footer class="footer">
+    <div class="wrapper">
+        <div class="footer-content">
+            <div class="footer-address-content">
+                <a class="footer-logo-link" href="">
+                    <h1 class="footer-subtitle serif">道の駅花かげの郷</h1>
+                    <h1 class="footer-title serif">まきおか</h1>
+                </a>
+                <p class="footer-address-txt">
+                    〒404-0012<br>
+                    山梨県山梨市牧丘町室伏2120<br>
+                    TEL.0553-35-4780<br>
+                    FAX.0553-35-4785<br>
+                    営業時間　9時～17時半(季節により変更あり)<br>
+                    定休日　　毎週水曜日
+                </p>
+            </div>
+            <nav class="footer-nav">
+                <ul class="footer-nav-lists">
+                    <li><a href="#">お知らせ</a></li>
+                    <li><a href="#">施設紹介</a></li>
+                    <li><a href="#">周辺観光</a></li>
+                    <li><a href="#">会社概要</a></li>
+                    <li><a href="#">お問合せ</a></li>
+                    <li><a href="#">個人事業保護方針</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="footer-copy">copyright©2015　道の駅まきおか  all rights reserved.</div>
+</footer>
+<!-- /footer -->
+</div>
+</div>
+<!-- JavaScript -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
+<!-- /JavaScript -->
+</body>
+
+</html>

@@ -487,7 +487,7 @@ section1
 #section1 {
     position: relative;
     padding: 5.6rem 0 8.0rem;
-    background-image: url("../images/section1-bg.png");
+    background-image: url("../../images/top-page/section1-bg.png");
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
@@ -496,7 +496,7 @@ section1
 #section1::before {
     position: absolute;
     content: '';
-    background-image: url("../images/top-section1-bg-text.png");
+    background-image: url("../../images/top-page/top-section1-bg-text.png");
     background-size: cover;
     background-repeat: no-repeat;
     top: 0;
@@ -507,7 +507,7 @@ section1
 #section1::after {
     position: absolute;
     content: '';
-    background-image: url("../images/section1-sakura.png");
+    background-image: url("../../images/top-page/section1-sakura.png");
     background-size: cover;
     background-repeat: no-repeat;
     top: 0;
@@ -568,7 +568,7 @@ section1
 @media screen and (max-width: 768px) {
     #section1 {
         position: relative;
-        background-image: url("../images/section1-bg-sp.png");
+        background-image: url(".../../images/top-page/section1-bg-sp.png");
         background-size: right;
         background-repeat: no-repeat;
         padding: 2.4rem 0 17.0rem;
@@ -576,7 +576,7 @@ section1
     #section1::before {
         position: absolute;
         content: '';
-        background-image: url("../images/top-section1-bg-text.png");
+        background-image: url("../../images/top-page/top-section1-bg-text.png");
         background-size: cover;
         background-repeat: no-repeat;
         top: 0;
@@ -631,7 +631,7 @@ section2
 #section2::before {
     position: absolute;
     content: '';
-    background-image: url("../images/section2-sakura.png");
+    background-image: url("../../images/top-page/section2-sakura.png");
     background-size: contain;
     background-repeat: no-repeat;
     top: 11.0rem;
@@ -671,7 +671,7 @@ section2
     #section2::before {
         position: absolute;
         content: '';
-        background-image: url("../images/section2-sakura.png");
+        background-image: url("../../images/top-page/section2-sakura.png");
         background-size: contain;
         background-repeat: no-repeat;
         top: 12.0rem;
@@ -703,7 +703,7 @@ section3
 ============================*/
 #section3 {
     padding: 7.6rem 0;
-    background-image: url("../images/top-section2-bg.jpg");
+    background-image: url("../../images/top-page/top-section2-bg.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -755,7 +755,7 @@ section4
 #section4 {
     padding-top: 11.5rem;
     padding-bottom: 23.0rem;
-    background-image: url("../images/section4-bg.png");
+    background-image: url("../../images/top-page/section4-bg.png");
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -828,7 +828,7 @@ section4
     #section4 {
         padding-top: 2.4rem;
         padding-bottom: 14.0rem;
-        background-image: url("../images/section4-bg-sp.png");
+        background-image: url("../../images/top-page/section4-bg-sp.png");
         background-position: right;
         background-repeat: no-repeat;
         background-size: cover;
@@ -886,7 +886,7 @@ news
 #news::before {
     position: absolute;
     content: '';
-    background-image: url("../images/news-top-sakura.png");
+    background-image: url("../../images/top-page/news-top-sakura.png");
     background-size: contain;
     background-repeat: no-repeat;
     top: -3.0rem;
@@ -898,7 +898,7 @@ news
 #news::after {
     position: absolute;
     content: '';
-    background-image: url("../images/news-bottom-sakura.png");
+    background-image: url("../../images/top-page/news-bottom-sakura.png");
     background-size: contain;
     background-repeat: no-repeat;
     bottom: -3.6rem;
@@ -1036,7 +1036,7 @@ calendar
 ============================*/
 #calendar {
     padding: 4.2rem 0 3.4rem;
-    background-image: url("../images/top-calendar-bg.jpg");
+    background-image: url("../../images/top-page/top-calendar-bg.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1067,7 +1067,7 @@ calendar
 @media screen and (max-width: 768px) {
     #calendar {
         padding: 30.0rem 0 2.4rem;
-        background-image: url("../images/top-calendar-bg-sp.jpg");
+        background-image: url("../../images/top-page/top-calendar-bg-sp.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
